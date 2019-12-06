@@ -10,6 +10,10 @@
 #include "Controllers/Controller.h"
 #include "RoboroboMain/common.h"
 
+#include <boost/geometry.hpp>
+#include <boost/geometry/geometries/geometries.hpp>
+
+
 class RobotWorldModel;
 
 class TMEboidsController : public Controller
